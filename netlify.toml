@@ -12,14 +12,14 @@ HUGO_ENABLEGITINFO = "true"
 command = "hugo --gc --minify --enableGitInfo"
 
 [context.split1.environment]
-HUGO_VERSION = "0.55.6"
+HUGO_VERSION = "0.58"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
 command = "hugo --gc --minify --buildFuture -b https://miljkov.me/"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.55.6"
+HUGO_VERSION = "0.58"
 
 [context.branch-deploy]
 command = "hugo --gc --minify -b https://miljkov.me/"
