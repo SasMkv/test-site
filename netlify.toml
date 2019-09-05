@@ -22,7 +22,7 @@ command = "hugo --gc --minify --buildFuture -b https://miljkov.me/"
 HUGO_VERSION = "0.55.6"
 
 [context.branch-deploy]
-command = "hugo --gc --minify -b https://miljkov.me/""
+command = "hugo --gc --minify -b https://miljkov.me/"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.58"
